@@ -47,6 +47,14 @@ class DailymotionUser implements ResourceOwnerInterface
     /**
      * @return string|null
      */
+    public function getEmail()
+    {
+        return $this->getField('email');
+    }
+
+    /**
+     * @return string|null
+     */
     public function getAvatar()
     {
         return $this->getField('avatar_120_url');

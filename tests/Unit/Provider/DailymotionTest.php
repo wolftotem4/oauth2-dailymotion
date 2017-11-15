@@ -102,6 +102,7 @@ class DailymotionTest extends \PHPUnit_Framework_TestCase
         $this->assertEquals('mock_screenname', $userData->getScreenname());
         $this->assertEquals('http://avatar_url', $userData->getAvatar());
         $this->assertEquals('http://url', $userData->getProfileUrl());
+        $this->assertEquals('mock_email', $userData->getEmail());
     }
 
     /**
