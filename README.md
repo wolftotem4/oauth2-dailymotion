@@ -67,7 +67,7 @@ try {
     $user = $provider->getResourceOwner($token);
 
     // Use these details to create a new profile
-    printf('Hello %s!', $user->getFirstName());
+    printf('Hello %s!', $user->getScreenname());
     
     echo '<pre>';
     var_dump($user);
