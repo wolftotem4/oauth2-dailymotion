@@ -9,6 +9,8 @@ The following versions of PHP are supported.
 - PHP 5.6
 - PHP 7.0
 - PHP 7.1
+- PHP 8.0
+- PHP 8.1
 
 ## Installation
 
